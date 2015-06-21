@@ -1,7 +1,7 @@
 LanPaste
 ----
 
-Copy & Paste simply across all devices (iOS / Chrome) on local network.
+Copy & Paste simply across all devices (iOS / Chrome) on local network without configuration.
 
 iOS App is build with [React Native](https://github.com/facebook/react-native).
 
