@@ -26,7 +26,7 @@ cd LanPaste
 - ***change jsCodeLocation variable in `AppDelegate.m` to the one you want***
 - Press `Cmd+R` to build it
 
-## Install Chrome extension and plugin
+## Install Chrome app and extension
 
 - Chrome go to Menu -> More tools -> Extensions
 - Click the “Developer mode” checkbox and then click the button labeled “Load unpacked extension…”.
