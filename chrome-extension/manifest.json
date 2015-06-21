@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "CloudPaste",
+  "description": "Copy & pastes across all devices on local network",
+  "version": "1.0",
+	"icons": {
+		"16": "icon.png",
+		"128": "icon.png"
+	},
+  "background": {
+		"scripts": ["background.js"]
+	},
+  "permissions": [
+		"contextMenus", "tabs", "notifications", "activeTab", "identity"
+  ],
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuJmIlAiFDUS/5S3vn3HFJp+/DVxTaBIVkEmS29DUTVOV8FV7R68PDvNrJF6b59Pm5fSgxSkVEf5F5T3SIFHvRBoWjcZgj8zEyTB87Dth3da/qoZ3Ye7u0xdmPhIKS3DTcim21vitcLPksCjEOP5zcCjrw4gfETYONipMGSS6ZVJW2eQxgkEbIhF5xC0BXRTMw6CC8ytAh/UNc0kJWhcEiip6IAF1Ucyxnnxkuu5Vug1fOCHtCm+iMcZaKmqezTQfLlOokZUE8ElvKQGWi1FT6G5KiNt1GAhjzqn8E2p9r2S/owySHiq3jkdiEqzyJ42RJgfvS/sjZW2vvD5VUS2YpQIDAQAB"
+}
+

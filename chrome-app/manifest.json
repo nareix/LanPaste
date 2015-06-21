@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "CloudPaste App",
+  "description": "Copy & pastes across all devices on local network",
+  "version": "1.0",
+	"icons": {
+		"16": "icon.png",
+		"128": "icon.png"
+	},
+
+	"externally_connectable": {
+		"ids": ["*"]
+	},
+
+	"app": {
+		"background": {
+			"scripts": ["app.js"]
+		}
+	},
+	"sockets": {
+		"udp": {
+			"send": ["224.0.0.1:16533"],
+			"bind": ["0.0.0.0:16533"]
+		},
+		"tcpServer": {
+			"listen": [":16534"]
+		}
+	},
+  "permissions": [
+		"contextMenus", "notifications", "identity", "identity.email"
+  ],
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq0++giF108UECUP1gveoa2wu8TZHT2nbhGhDI9prVAKS7niF2hZ0jiS38/SiIp/klNjV9b6cXeGJS47ppaWmLIDo3jl3RKvwf/5f+hQ3tn5U4MyCHx/0i8MTjgfgIcHuqpFKUrvvCjDYbh1SWeVSk/Y0TiGQrAWdF/wAhLJOf3mVZqOEB3fkkvXOroDnZTqbSXNgFX45JSopjiU7P0qMzifFTBbEe96CLa6SzfLDQARU//22x0XM3dr1iPvzyqeo4BX0EZ8hYftmLg2pOWJGAVBDZXru/Ac8iV5361tP1JdyjZ/ZevprN7Rvw9446HOxHlKhR/XpY5FsEvjPTxnChQIDAQAB"
+}
+
