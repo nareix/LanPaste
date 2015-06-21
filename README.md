@@ -23,12 +23,13 @@ cd LanPaste
 - `cd iosapp`
 - `npm install`
 - Open `LanPaste.xcodeproj` in `XCode`
+- ***change jsCodeLocation variable in `AppDelegate.m` to the one you want***
 - Press `Cmd+R` to build it
 
 ## Install Chrome extension and plugin
 
 - Chrome go to Menu -> More tools -> Extensions
 - Click the “Developer mode” checkbox and then click the button labeled “Load unpacked extension…”.
-- Select `chrome-app` folder first.
+- ***Select `chrome-app` folder first.***
 - And then `chrome-extension` folder.
 
